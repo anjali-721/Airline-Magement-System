@@ -65,4 +65,12 @@ public class Employee {
     public void setSalary(double salary) {
         this.salary = salary;
     }
+
+    public void print() {
+        System.out.println("id"+getId());
+        System.out.println("Name" +getFirstName()+" "+getLastName());
+        System.out.println("Contact" +getTel());
+        System.out.println("Email"+getEmail());
+        System.out.println("Salary"+getSalary());
+    }
 }
